@@ -1,0 +1,81 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: rgb(240,240,240); 
+    background-image: url("meadow.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.column {
+    float: left;
+    margin-top: 11%;
+    margin-left: 4%;
+    width: 20%;
+    height: 250px;   
+}
+
+#name{
+    background-color: #E55A20;
+}
+
+#intro{
+    background-color: #F4F3EF;
+}
+
+#education{
+    background-color: #E3D9C3;
+}
+
+#work{
+    background-color: #B08F3E;
+}
+
+h1{
+    color: whitesmoke;
+    text-align:left;
+    font-size: 40px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2{
+    border-bottom: solid 2px whitesmoke;
+    color: whitesmoke;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top:10px;
+    padding-top: 70px;
+    padding-bottom: 5px;  
+}
+h3{
+    border-top: solid 2px whitesmoke;
+    color: whitesmoke;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 25px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+img {
+    height: 100%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 95%;
+}
+
+p{
+    color: whitesmoke;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 0;
+    margin-bottom:0;
+}
+
+
+ul{
+    color: whitesmoke;
+}
