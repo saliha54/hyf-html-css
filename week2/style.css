@@ -183,6 +183,11 @@ img{
     }
 }
 
+#grid-floats::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 /********tablet**********/
 @media screen and (min-width: 600px)
 {
