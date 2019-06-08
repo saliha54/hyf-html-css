@@ -16,6 +16,8 @@
 	}
 }
 
+
+
 body{
     text-align: center;
     background:#242F40;
@@ -113,18 +115,9 @@ img{
     border-radius: 20%;  
 }
 
-#grid-floats::after {
-    content: "";
-    clear: both;
-    display: table;
-}
 /*********phone**********/
 @media screen and (max-width: 600px)
 {
-    section:first-of-type{
-        height: 534vh; 
-       /* h2_height + #margintop&bottom*height +  + #grid*height */
-    }
     ul{
        height: auto; 
     }
@@ -144,6 +137,12 @@ img{
     {
         width: 96vw;
     }
+
+    #grid-floats::after {
+        content: "";
+        clear: both;
+        display: table;
+    } 
 
     /******************/
     /*******FLEX*******/
@@ -188,18 +187,9 @@ img{
     }
 }
 
-#grid-floats::after {
-    content: "";
-    clear: both;
-    display: table;
-}
 /********tablet**********/
 @media screen and (min-width: 600px)
 {
-    section:first-of-type{
-        height: 350vh;
-       /* h2_height + #margintop&bottom*height +  + #grid*height */
-    }
     ul{
        height: auto; 
     }
@@ -224,6 +214,12 @@ img{
     {
         width: 47vw;
     }
+
+    #grid-floats::after {
+        content: "";
+        clear: both;
+        display: table;
+    } 
 
     /******************/
     /*******FLEX*******/
@@ -274,10 +270,6 @@ img{
 /********desktop*********/
 @media screen and (min-width: 768px)
 {
-    section:first-of-type{
-        height: 326vh;
-        /* h2_height + #margintop&bottom*height +  + #grid*height */
-    }
     ul{
        height: auto; 
     }
@@ -307,6 +299,12 @@ img{
     {
         width: 22.5vw;
     }
+
+    #grid-floats::after {
+        content: "";
+        clear: both;
+        display: table;
+    } 
 
     /******************/
     /*******FLEX*******/
