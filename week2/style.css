@@ -113,6 +113,11 @@ img{
     border-radius: 20%;  
 }
 
+#grid-floats::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 /*********phone**********/
 @media screen and (max-width: 600px)
 {
